@@ -1,0 +1,129 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+ max-width: 1140px;
+ margin: 0 auto;
+ padding: 0 20px;
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color:white;
+}
+
+header .Demo {
+ background-color: blueviolet;
+ color: white;
+ padding: 10px 15px;
+ border-radius: 30px;
+}
+
+.intro .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro h1{
+    top: -50px;
+    position: relative;
+    width: 500px;
+    font-size: 52px;
+}
+
+.sproses{
+    background-color: black;
+    padding: 40px 0;
+    color: white;
+}
+
+.sproses .container{
+    display: flex;
+    gap: 100px;
+}
+
+.sproses .contekt{
+    width: 50%;
+}
+
+.sproses p{
+color: gray;
+line-height: 22px;
+margin-bottom: 40px;
+}
+.sproses a{
+    color: white;
+    border-radius: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.sproses .kontakt{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sproses .kontakt img{
+    height: 20px;
+}
+
+@media(max width:768){
+ .intro .container{
+    flex-direction: column-reverse;
+ }   
+}
+
+.intro h1{
+    font-size: 42px;
+    text-align: center;
+}
+
+.sproses{
+    text-align: center;
+}
+
+.sproses .kontak{
+    justify-content:center;
+}
+
+.sproses .kontak img{
+    width: 25%;
+}
+
+@media(max width:600px){
+    header .container{
+        flex-direction: column;
+    }
+    header ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro h1{
+        width: 85%;
+    }
+}

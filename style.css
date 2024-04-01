@@ -92,7 +92,63 @@ margin-bottom: 40px;
     height: 20px;
 }
 
-@media(max width:768){
+.implement{
+    padding: 150px;
+}
+
+.implement .top img{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.implement .top{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.implement .top h2{
+    font-size: 32px;
+}
+
+.implement .top p{
+    line-height: 26px;
+    color: aqua;
+}
+
+.implement .bottom{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.implement .bottom p{
+    color: aqua;
+    color: gray;
+}
+
+.implement .bottom img{
+    background-color: black;
+    padding:20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+
+
+@media(max-width:768){
  .intro .container{
     flex-direction: column-reverse;
  }   
@@ -115,7 +171,7 @@ margin-bottom: 40px;
     width: 25%;
 }
 
-@media(max width:600px){
+@media(max-width:600px){
     header .container{
         flex-direction: column;
     }
